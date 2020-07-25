@@ -8,9 +8,11 @@
 <body>
     <script>
         function temHabilidade(skills) {
-
+            var retorno = skills.indexOf(elemento) > -1 ? "true":"false";
+            console.log(retorno);
         }
         var skills = ["Javascript", "ReactJS", "React Native"];
+        var elemento = "Javascript";
         temHabilidade(skills); // true ou false
     </script>
 </body>
